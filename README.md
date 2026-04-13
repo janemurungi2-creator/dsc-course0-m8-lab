@@ -89,4 +89,22 @@ This is a nearly 3× multiplier on injury severity and 5× on destruction. Sampl
 
 ---
 
+## Repository Structure
+
+```
+├── Aviation_Accidents_Cleaning.ipynb       # Data loading, cleaning, feature engineering
+├── Aviation_Accidents_Data_Analysis.ipynb  # EDA, make/model rankings, factor analysis
+├── aviation_cleaned.csv                    # Cleaned dataset (output of cleaning notebook)
+├── AviationData.csv                        # Raw source data
+├── USState_Codes.csv                       # State code reference
+├── figures/                                # All generated visualisations
+└── README.md                               # This file
+```
+
+## Methodology Notes
+
+- **Small vs Large split:** Total.Aboard ≤ 20 (small) vs > 20 (large)
+- **Injury metric:** `Serious_Fatal_Frac = (Fatal + Serious) / Total_Aboard`
+- **Minimum sample thresholds:** ≥50 accidents per make (small); ≥10 (large); ≥10 per model
+- **NaN handling:** Injury NaNs imputed as 0; Unknown damage treated as NaN (not imputed)
 
