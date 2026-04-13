@@ -73,3 +73,20 @@ This is a nearly 3× multiplier on injury severity and 5× on destruction. Sampl
 
 ---
 
+## Visualisations
+
+| Figure | Description |
+|---|---|
+| fig1_accidents_over_time | Accident frequency trend 1983–2023 |
+| fig2_makes_injury_rate | Top 15 makes by injury rate (small & large) |
+| fig3_violin_small | Injury rate distribution — top 10 small makes |
+| fig4_strip_large | Individual injury rates — top 10 large makes |
+| fig5_destruction_rate | Destruction rate by make (small & large) |
+| fig6_models_large | Top 15 large aircraft models by injury rate |
+| fig7_models_small | Top 15 small aircraft models by injury rate |
+| fig8_weather | Outcomes by weather condition |
+| fig9_engines | Outcomes by engine type |
+
+---
+
+
