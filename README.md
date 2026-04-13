@@ -50,3 +50,26 @@ Separate recommendations are provided for **small aircraft (≤20 aboard)** and 
 
 ---
 
+## Contributing Factors
+
+### Factor 1: Weather Conditions (VMC vs IMC)
+
+Accidents in **Instrument Meteorological Conditions (IMC)** produce dramatically worse outcomes:
+- Mean injury rate: **62.7% (IMC)** vs **23.4% (VMC)**
+- Destruction rate: **37.3% (IMC)** vs **7.3% (VMC)**
+
+This is a nearly 3× multiplier on injury severity and 5× on destruction. Sample sizes are large (n=14,324 VMC; n=900 IMC), making this a highly robust finding.
+
+![Weather Factor](figures/fig8_weather.png)
+
+### Factor 2: Engine Type
+
+**Turbofan** engines are associated with the lowest accident severity:
+- Mean injury rate: **8.8%** — roughly 3× lower than reciprocating/piston engines (25.5%)
+- Destruction rate: **9.7%** — lowest of all engine types
+- Turboprop engines show the highest injury rate (32.1%), likely reflecting remote-operations exposure
+
+![Engine Type Factor](figures/fig9_engines.png)
+
+---
+
